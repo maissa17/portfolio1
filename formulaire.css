@@ -1,0 +1,51 @@
+body{
+	background-color: black;
+
+}
+h1{
+	color:yellow;
+	text-align:center ;
+}
+table{
+	color:yellow;
+	text-align:center ;
+	margin-left:30% ;
+	padding:5px;
+	font-size: 25px;
+}
+ td{
+  padding:50px;
+  text-align: center;
+  margin-top: 80px;
+
+}
+button
+{
+	text-align: center;
+	border: 2px solid rgb(255, 255, 255);
+	border-radius: 26px;
+	text-align: center;
+	padding: 15px 32px;
+	background-color: yellow;
+	width:300px;
+	margin-top: 5px ;
+	margin-left: 500px;
+
+   }
+	input{
+		border:2px solid ;
+		border-radius: 26px;
+		text-align: center;
+		padding:15px 32px;
+		margin-bottom:25px 
+
+		}
+		select {
+			border:2px solid ;
+		text-align: center;
+		padding:15px 32px;
+		background-color: ;
+		
+		
+		margin-bottom:25px
+		}
