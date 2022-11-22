@@ -1,0 +1,19 @@
+.container {
+    display: inline-block;
+    position: relative;
+}
+.container .text {
+    background: rgba(190, 186, 201, 0.8);
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 30%;
+    color: rgb(22, 30, 46);
+    width:35%;
+    height: 12%;
+
+    }
