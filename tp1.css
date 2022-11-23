@@ -1,0 +1,16 @@
+body {
+    background-color: aqua;
+}
+button {
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    border: 2px solid whitesmoke;
+    border-radius: 25px;
+    color: black;
+    font-size: medium;
+}
+button:hover {
+ background-color: beige;
+ color: black;
+}
