@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(223, 142, 255);
+}
+.container{
+    width: 70%;
+    align-items: center;
+    margin: auto;
+    border: 2px solid white;
+    border-radius: 16px;
+
+}
+
+input {
+    margin: 20px;
+    border-color: rgb(202, 150, 252);
+    border-radius: 0%;
+    width: 250px;
+    height: 70px;
+}
+
+button {
+    padding: 20px;
+    margin: 30px;
+}
