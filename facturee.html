@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="facturee.css">
+    <script  src="facturee.js"></script>
+</head>
+<body>
+<div class="bloc1"> 
+    <img src="avatar.jpg">
+   <p class="titre1"> Speedwagon fondation <br>
+    <p class="tt1"> 102 rue morioh <br> </p>
+    <p class="tt1"> XXXXXXX </p>
+    <p class="titre2"> FACTURE 
+       <p class="t2">  12/11/2021 </p><hr align="right" width="150" noshade> 
+       <p class="t3">N° de facture  <hr align="right" width="150" noshade> 
+        </p>
+</div>
+
+<div class="bloc2"> 
+    <p class="phrase">condition de paiement, par exemple : du dans x jours </p>
+       <table class="b1"> 
+        
+        <tr> <th> destinataire <br> <hr width="715" noshade color="black"></td> 
+        </tr>
+        <tr>
+        <th>
+        <input type="text" placeholder="Nom" class="b"> <br>
+         <input type="text" placeholder="Nom de la société"class="b"> <br>
+         <input type="text" placeholder="Adresse postale"class="b"> <br>
+         <input type="text" placeholder="Téléphone" class="b"><br>
+         <input type="text" placeholder="email"class="b"><br>
+        </tr>
+    </th>
+       </table>
+       <table class="b2"> 
+        
+        <tr> <th> envoyez a <br> <hr width="720" noshade color="black"></td> 
+        </tr>
+        <tr>
+        <th>
+          <input type="text" placeholder="Nom" class="b"><br>
+          <input type="text" placeholder="Nom de la société" class="b"> <br>
+         <input type="text" placeholder="Adresse postale" class="b"> <br>
+         <input type="text" placeholder="Téléphone" class="b"> <br>
+         <input type="text" placeholder="email" class="b"> <br>
+        </tr>
+        </th>
+       </table>
+
+ <table class="table1" id="table_inv">
+    <thead>
+        <td class="taille2"> description</td>
+         <td class="taille"> quantité</td>
+           <td class="taille"> prix </td>
+          <td class="taille"> total</td> 
+        </thead>
+
+
+  
+       <!----> <tr class="row">
+        <td> <input type="text" name="desc"class="input desc" value="desc1"></td>
+        <td> <input type="text" name="qte"class=" qte" value="0"></td>
+        <td> <input type="text" name="prix"class=" prix" value="0"></td>
+        <td> <input id="total4" type="text" name="total" class="totalLigne"readonly="readonly" value="0.00"></td>
+        </tr>
+        <tr class="row">
+    <td> <input type="text" name="desc"class="input desc" value="desc2"></td>
+    <td> <input type="text" name="qte"class=" qte" value="0"></td>
+    <td> <input type="text" name="prix"class="prix" value="0"></td>
+    <td> <input id="total3" type="text" name="total"class="totalLigne"readonly="readonly" value="0.00"></td>
+        </tr>
+<tr class="row" id="modeleLigne">
+    <td> <input type="text" name="desc"class="input desc" value="desc3"></td>
+    <td> <input type="text" name="qte"class=" qte" value="0"></td>
+    <td> <input type="text" name="prix"class="prix" value="0"></td>
+    <td> <input id="total2" type="text" name="total"class="totalLigne"readonly="readonly" value="0.00"></td>
+</tr>
+
+
+<tr class="row lastrow" id="lastLigne">
+  <td> <input type="text" name="desc"class=" input desc" value="desc4"></td>
+    <td> <input type="text" name="qte"class="qte" value="0"></td>
+    <td> <input type="text" name="prix"class="prix" value="0"></td>
+    <td> <input  id="total1" type="text" name="total"class="totalLigne" readonly="readonly" value="0.00"></td>
+</tr>
+
+
+       </table>
+<h1> remarques, <br>
+notes et <br> 
+instructions <br> 
+de<br>  
+paiement </h1>
+    <h2>  
+SOUS TOTAL <input type="text" class="texte" id="soustotal" name="totalLigne" readonly="readonly" value="0" > <br> 
+ REMISE <input type="text" value="0" class="texte" name="remise"><br>
+ SOUS TOTAL MOINS LES REMISES <input type="text"  value="0"  class="texte"> <BR>
+TAUX D'IMPOSITION<input type="text"  value="10.00%"  class="texte"><BR>
+TAXE TOTALE <input type="text"  value="0"  class="texte"><BR>
+EXPEDITO MANUTENTION <input type="text" value="0"  class="texte"><BR> <hr width="300" noshade color="black"> 
+SOLDE DU <input type="text" value="0"  class="texte">
+</h2>
+
+
+
+
+<buttom>
+    
+ <input type="button" value="Calculer"class="bouton"onclick ="calculate()">
+ 
+ <input type="button" value="ajouter une ligne" class="bouton" onclick ="ajouterLigne()">
+ <input type="button" value="remplir" class="bouton"onclick ="remplir()">
+
+
+
+
+</buttom>
+
+
+</div>
+</div>
+
+
+    
+</body>
+</html>

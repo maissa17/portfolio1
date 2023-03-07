@@ -1,0 +1,274 @@
+body{
+background-color: transparent;
+/*border: 20ch;*/
+padding-top: none;
+padding-bottom: none;
+}
+
+.bloc1{
+    background-color: rgba(184, 154, 224, 0.575);
+  /*height: 20%;*/
+    padding: 40px;
+   
+
+}
+.bloc2{
+    background-color:  #5963c085;;
+   /*height: 100%;
+   
+    /*width: 100%;*/
+    text-align: right;
+    padding-bottom:140px;
+}
+
+.titre1{
+ font-weight: bold;
+ text-align: left;
+ margin-right: 50%;
+float: left;
+font-size: x-large;
+
+}
+
+.titre2{
+    font-size: 200%;
+    text-align: right;
+   /*margin-left: 50%;*/
+    color: rgba(110, 110, 110, 0.61);
+    font-weight: bold;
+  /* float: right;*/
+   /*padding-bottom: 500%;*/
+ 
+    
+}
+.t2  {
+    font-size: 100%;
+    text-align: right;
+   /* margin-left: 50%;*/
+  /*float: right;*/
+  padding-right: 35px;
+    font-weight: bold;
+    
+  /* padding-bottom: 500px;*/
+}
+
+
+.b1{
+    float: left;
+    padding-top: 50px;
+    text-align: center;
+    padding-right: 20px;
+    margin-left: 40px;
+   
+}
+
+.b2{ 
+    margin-right: 50px;
+    /*padding-top: 40px;*/
+    padding-right: 250px;
+    text-align: center;
+   /* float: right;*/
+   /*padding-bottom: 800px;*/
+   /*margin-left: 550px;*/
+
+    
+}
+.b1  th {
+ font-size: larger;
+ font-weight: bolder;
+ text-align: left;
+ padding-right: 50px;
+ 
+ 
+}
+.b2 th {
+    /*margin-bottom: 250px;*/
+    /*padding-left: 660px;*/
+    font-size: larger;
+    font-weight: bolder;
+    text-align: left;
+    
+   }
+   .titre2 .t2{
+   padding-top: 50%;
+   float: left;
+float: right;
+   }
+   .t3 {
+    font-size: 100%;
+    text-align: right;
+   /* margin-left: 50%;*/
+  /*float: right;*/
+color: rgb(126, 124, 124);
+    font-weight: bold;
+    margin: 10px;
+    padding-right: 20px;
+   }
+   .tt1{
+
+    font-weight: bold;
+ text-align: left;
+ margin-right: 60%;
+float: left;
+font-size: 20px;
+
+
+   }
+  /* img{
+    border-radius: 100%;
+    height: 5%;
+    width: 5%;
+    margin-right: 200%;
+   }*/
+   .titre1 .tt1{
+margin-right: 500px;
+
+   }
+   .b1 .b2{
+    text-align: center;
+    
+   }
+   .phrase{
+    font-size: medium;
+    text-align: right;
+    font-style: italic;
+    float: right;
+   }
+   .table1{
+    width: 90%;
+   margin-left: 95px;
+   margin-right: 75px;
+   height: 50%;
+   }
+   .table1 thead {
+    background-color: rgb(133, 106, 255);
+    border-color: aliceblue;
+   border: 1px;
+    border-spacing: 6px;
+    text-align: center;
+    font-size: larger;
+    color: aliceblue;
+
+}
+tbody .row {
+    border: 2px solid rgb(133, 106, 255);
+    background-color: aliceblue;
+    height:50%;
+    width: 9%;
+}
+.taille{
+    background-color: rgb(133, 106, 255);
+    width: 10px;
+}
+.taille2{
+    width: 35%;
+}
+ input{
+   
+    text-align: left;
+    width: 50%;
+    margin-right: 100px;
+}
+.desc input {
+    background-color: blueviolet;
+    margin-left:100%;
+}
+/*tbody tr:nth-child(even){
+    /*background-color: #f3f3f3;*/
+
+
+/*.table1 tbody thead{
+    background-color: rgb(218, 219, 214);
+   padding-bottom: 40px;
+   
+   height: 200px;
+   width: 200px;
+   border: 2px solid #000;
+   vertical-align:top;
+   text-align:right;
+  
+}
+
+/*thead .table1 td{
+ background-color: rgb(11, 163, 130);
+ height: 500px;
+ 
+}
+
+td .row{
+    background-color: rgb(11, 163, 130);
+}
+.table1 thead td tr .row tbody{
+    background-color: rgb(11, 163, 130);
+    height: 600%;
+    width: 900%;
+}
+
+*/ td {
+   size:4ch;
+}
+
+
+h1{
+   text-align: left; 
+   font-size: 20px;
+   float: LEFT;
+   font-weight: lighter;
+   font-size: large;
+   margin-left: 95px;
+}
+h2{
+    margin-right: 20%;
+    text-align: right; 
+    font-size: 15px;
+    float: right;
+    margin-left: 69px;
+    
+ }
+
+button{
+/*margin-left: 30px;*/
+    margin-top: 140px;
+  text-align: left;
+  float: left;
+  
+
+}
+/*td.description{
+    size: 1000ch;
+}*/
+.b{
+    background-color: transparent;
+    border: 0px;
+    font-size: medium;
+   font-weight: bolder;
+}
+img{
+    width: 10%;
+    height: 10%;
+    border-radius: 80%;
+    float: left;
+    margin-right: 5%;
+}
+.bouton{
+   width: 150px;
+margin-top: 7%;
+  /* margin-bottom: 40%;*/
+   background-color: #6774e788;
+   border: 2px solid black;
+ 
+   color: white;
+   text-shadow: 1px 1px 2px rgb(57, 32, 36);
+}
+
+
+.texte{
+    width: 45px;
+    height: 100%;
+    background-color:transparent;
+margin-right: 1px;}
+
+
+
+    
+
